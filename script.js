@@ -5,7 +5,7 @@ const Isenha = document.querySelector(".senha")
 const Itel = document.querySelector(".tel")
 
 function cadastrar(){
-    fetch("https://projetoapiback-end-production.up.railway.app/",
+   fetch("https://projetoapiback-end-production.up.railway.app/usuarios",
     {
         headers: {
             'Accept': 'application/json',
@@ -36,4 +36,5 @@ formulario.addEventListener('submit', function(event){
     limpar();
 
 });
+
 
